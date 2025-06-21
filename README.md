@@ -1,6 +1,6 @@
 # Kubernetes - K8
 
-# Commands
+# Commands list
 ```bash
 # start minikube
 minikube start
@@ -16,4 +16,5 @@ kubectl get pods -A
 
 # get services
 kubectl get services -A
+
 ```
