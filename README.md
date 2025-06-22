@@ -1,4 +1,5 @@
 # Kubernetes - K8
+IaC (Infrastructure as Code) or GitOps
 
 # Commands list
 ```bash
@@ -16,5 +17,8 @@ kubectl get pods -A
 
 # get services
 kubectl get services -A
+
+# Create namespace
+kubectl apply -f namespace.yaml
 
 ```
