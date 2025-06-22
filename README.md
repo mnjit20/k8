@@ -21,4 +21,7 @@ kubectl get services -A
 # Create namespace
 kubectl apply -f namespace.yaml
 
+# Delete namespace
+kubectl delete -f namespace.yaml
+
 ```
