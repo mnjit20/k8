@@ -24,4 +24,10 @@ kubectl apply -f namespace.yaml
 # Delete namespace
 kubectl delete -f namespace.yaml
 
+# Deployments 
+kubectl apply -f deployment.yaml
+
+# Delete a deployed pod 
+kubectl delete pod POD_NAME -n NAMESPACE_NAME
+
 ```
