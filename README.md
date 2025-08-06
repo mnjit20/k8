@@ -37,4 +37,8 @@ kubectl describe pod POD_NAME -n NAMESPACE_NAME
 # Check if deployed app is working
 kubectl -n NAMESPACE_NAME
 
+
+
 ```
+
+# Docker
