@@ -37,6 +37,10 @@ kubectl describe pod POD_NAME -n NAMESPACE_NAME
 # Check if deployed app is working
 kubectl -n NAMESPACE_NAME
 
+# Go inside a k8 cluster
+
+kubectl exec -it NAME_OF_THE_BOX -- /bin/sh
+
 
 
 ```
