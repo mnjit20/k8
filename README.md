@@ -41,6 +41,12 @@ kubectl -n NAMESPACE_NAME
 
 kubectl exec -it NAME_OF_THE_BOX -- /bin/sh
 
+# Services
+# Get Services
+kubectl get services
+
+# Get Service External and Cluster IP address
+kubectl get services -n development                               
 
 
 ```
